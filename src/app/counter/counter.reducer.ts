@@ -9,15 +9,12 @@ const initalState = 0;
 export const counterReducer = createReducer(
   initalState, 
   on(increment, (state) => {
-    debugger;
     return state + 1;
   }),
   on(decrement, (state) => {
-    debugger;
     return state - 1;
   }),
   on(reset, (state) => {
-    debugger;
     return 0;
   })
 )
